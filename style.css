@@ -1,0 +1,38 @@
+*{margin: 0;padding: 0;}
+
+.contenitore{
+    display: flex;
+    justify-content: center;
+}
+
+.comandi{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 30%;
+}
+
+.display{
+ width: 30%;
+ background-color: darkslategrey;
+ color: ghostwhite;
+ display: flex;
+ justify-content: center;
+}
+
+.meno{
+    background-color: gold;
+    padding: 0 20 ;
+    display: flex;
+    color: lightcyan;
+    justify-items: center;
+}
+
+.più{
+    background-color: indigo;
+    width: 50%;
+    display: flex;
+    color: lightcyan;
+    align-items: center;
+    
+}
